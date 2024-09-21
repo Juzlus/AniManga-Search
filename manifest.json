@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AniManga Search",
+    "version": "1.0",
+    "author": ["🇯🅤🇿🅛🇺🅢#0420"],
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "64": "icons/64.png",
+        "128": "icons/128.png"
+    },
+    "description": "AniManga Search allows quick anime and manga searches on MyAnimeList, Shinden, Crunchyroll, MangaDex and trace.moe directly from the context menu.",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

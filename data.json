@@ -1,0 +1,38 @@
+[
+    {
+        "id": "anime_mal",
+        "title": "Search \"%s\" on MAL (anime)",
+        "url": "https://myanimelist.net/anime.php?q={TEXT}&cat=anime",
+        "contexts": ["selection"]
+    },
+    {
+        "id": "manga_mal",
+        "title": "Search \"%s\" on MAL (manga)",
+        "url": "https://myanimelist.net/manga.php?q={TEXT}&cat=manga",
+        "contexts": ["selection"]
+    },
+    {
+        "id": "anime_shinden",
+        "title": "Search \"%s\" on Shinden",
+        "url": "https://shinden.pl/series?search={TEXT}",
+        "contexts": ["selection"]
+    },
+    {
+        "id": "anime_crunchyroll",
+        "title": "Search \"%s\" on Crunchyroll",
+        "url": "https://www.crunchyroll.com/search?q={TEXT}",
+        "contexts": ["selection"]
+    },
+    {
+        "id": "anime_tracemoe",
+        "title": "Search on trace.moe",
+        "url": "https://trace.moe/?url={SRC}",
+        "contexts": ["image"]
+    },
+    {
+        "id": "manga_mangadex",
+        "title": "Search \"%s\" on MangaDex",
+        "url": "https://mangadex.org/search?q={TEXT}",
+        "contexts": ["selection"]
+    }
+]
